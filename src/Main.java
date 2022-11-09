@@ -26,5 +26,20 @@ public class Main {
         short alt = -159;
         short firstNumber = 27897;
         double height = 67.d;
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 3
+        byte studentsOfLP = 23;
+        byte studentsOfAS = 27;
+        byte studentsOfEA = 30;
+
+        short totalPages = 480;
+
+        int totalStudents = studentsOfLP + studentsOfAS + studentsOfEA;
+        int pagesPerStudent = totalPages / totalStudents;
+
+        System.out.println("На каждого ученика рассчитано " + pagesPerStudent + " листов бумаги");
     }
 }
