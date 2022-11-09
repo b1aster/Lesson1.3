@@ -16,5 +16,15 @@ public class Main {
         System.out.println("Значение переменной posX с типом float равно " + posX);
         System.out.println("Значение переменной posY с типом double равно " + posY);
 
+        // Задача 2
+        float temp = 27.12f;
+        long countOfSands = 987_678_965_549L;
+        byte a = 2;
+        short b = 786;
+        boolean isPerson = false;
+        int maxLines = 569;
+        short alt = -159;
+        short firstNumber = 27897;
+        double height = 67.d;
     }
 }
