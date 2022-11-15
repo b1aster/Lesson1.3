@@ -60,5 +60,20 @@ public class Main {
 
         int prodIn1Month = prodIn3Days * 10; // 30 days
         System.out.println("За 1 месяц работы машины произвела бутылок " + prodIn1Month + " штук");
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 5
+        int totalPaintTins = 120;
+        int whiteTinsFor1Class = 2;
+        int brownTinsFor1Class = 4;
+        int tinsFor1Class = whiteTinsFor1Class + brownTinsFor1Class;
+
+        int totalClasses = totalPaintTins / tinsFor1Class;
+        int totalWhiteTins = totalClasses * whiteTinsFor1Class;
+        int totalBrownTins = totalClasses * brownTinsFor1Class;
+
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhiteTins + " банок белой краски и " + totalBrownTins + " банок коричневой краски");
     }
 }
