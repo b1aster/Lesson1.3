@@ -75,5 +75,26 @@ public class Main {
         int totalBrownTins = totalClasses * brownTinsFor1Class;
 
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhiteTins + " банок белой краски и " + totalBrownTins + " банок коричневой краски");
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 6
+        int gramPer1Banana = 80;
+        int bananas = 5;
+
+        int mlPer1BottleOfMilk = 105;
+        int milk = 2;
+
+        int gramPer1Icecream = 100;
+        int icecream = 2;
+
+        int gramPer1Egg = 70;
+        int eggs = 4;
+
+        int totalWeight = (bananas * gramPer1Banana) + (milk * mlPer1BottleOfMilk) + (icecream * gramPer1Icecream) + (eggs * gramPer1Egg);
+        float totalWeightInKg = totalWeight / 1000f;
+
+        System.out.println("Суммарный вес спорт-завтрака составляет " + totalWeight + " грамм / " + totalWeightInKg + " кг.");
     }
 }
