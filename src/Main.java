@@ -96,5 +96,23 @@ public class Main {
         float totalWeightInKg = totalWeight / 1000f;
 
         System.out.println("Суммарный вес спорт-завтрака составляет " + totalWeight + " грамм / " + totalWeightInKg + " кг.");
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 7
+        int lossWeight = 7;
+
+        int minLossWeightPerDay = 250;
+        int maxLossWeightPerDay = 500;
+
+        int minDays = (lossWeight * 1000) / maxLossWeightPerDay;
+        System.out.println(minDays + " дней уйдёт на похудение на " + lossWeight + " кг., если спортсмен будет терять каждый день по " + minLossWeightPerDay + " грамм");
+
+        int maxDays = (lossWeight * 1000) / minLossWeightPerDay;
+        System.out.println(maxDays + " дней уйдёт на похудение на " + lossWeight + " кг., если спортсмен будет терять каждый день по " + maxLossWeightPerDay + " грамм");
+
+        int averageDays = (minDays + maxDays) / 2;
+        System.out.println(averageDays + " дней может потребоваться в среднем, чтобы добиться результата похудения на " + lossWeight + " кг");
     }
 }
