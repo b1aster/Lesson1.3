@@ -114,5 +114,31 @@ public class Main {
 
         int averageDays = (minDays + maxDays) / 2;
         System.out.println(averageDays + " дней может потребоваться в среднем, чтобы добиться результата похудения на " + lossWeight + " кг");
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 8
+        float mashaSalary = 67_760f;
+        float denisSalary = 83_690f;
+        float christinaSalary = 76_230f;
+
+        float raise = 10 / 100f;
+        int period = 12;
+
+        float mashaSalaryRise = mashaSalary * raise;
+        float newMashaSalary = mashaSalary + mashaSalaryRise;
+        float totalMashaSalaryRise = mashaSalaryRise * period;
+        System.out.println("Маша теперь получает " + newMashaSalary + " рублей. Годовой доход вырос на " + totalMashaSalaryRise + " рублей");
+
+        float denisSalaryRise = denisSalary * raise;
+        float newDenisSalary = denisSalary + denisSalaryRise;
+        float totalDenisSalaryRise = denisSalaryRise * period;
+        System.out.println("Денис теперь получает " + newDenisSalary + " рублей. Годовой доход вырос на " + totalDenisSalaryRise + " рублей");
+
+        float christinaSalaryRise = christinaSalary * raise;
+        float newChristinaSalary = christinaSalary + christinaSalaryRise;
+        float totalChristinaSalaryRise = christinaSalaryRise * period;
+        System.out.println("Кристина теперь получает " + newChristinaSalary + " рублей. Годовой доход вырос на " + totalChristinaSalaryRise + " рублей");
     }
 }
