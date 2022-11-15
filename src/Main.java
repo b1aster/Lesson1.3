@@ -41,5 +41,24 @@ public class Main {
         int pagesPerStudent = totalPages / totalStudents;
 
         System.out.println("На каждого ученика рассчитано " + pagesPerStudent + " листов бумаги");
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 4
+        int prodIn2min = 16;
+        System.out.println("За 2 минуты работы машины произвела бутылок " + prodIn2min + " штук");
+
+        int prodIn20min = prodIn2min * 10;
+        System.out.println("За 20 минут работы машины произвела бутылок " + prodIn20min + " штук");
+
+        int prodIn24hours = prodIn20min * 3 * 24;
+        System.out.println("За 24 часа работы машины произвела бутылок " + prodIn24hours + " штук");
+
+        int prodIn3Days =  prodIn24hours * 3;
+        System.out.println("За 3 дня работы машины произвела бутылок " + prodIn3Days + " штук");
+
+        int prodIn1Month = prodIn3Days * 10; // 30 days
+        System.out.println("За 1 месяц работы машины произвела бутылок " + prodIn1Month + " штук");
     }
 }
